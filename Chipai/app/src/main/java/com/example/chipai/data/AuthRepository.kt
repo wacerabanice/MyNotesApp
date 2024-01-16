@@ -1,4 +1,4 @@
-package net.simplifiedcoding.data
+package com.example.chipai.data
 
 import com.google.firebase.auth.FirebaseUser
 

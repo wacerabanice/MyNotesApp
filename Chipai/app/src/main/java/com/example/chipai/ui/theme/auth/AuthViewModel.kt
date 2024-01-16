@@ -1,14 +1,13 @@
-package net.simplifiedcoding.ui.auth
+package com.example.chipai.ui.theme.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.chipai.data.AuthRepository
+import com.example.chipai.data.Resource
 import com.google.firebase.auth.FirebaseUser
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import net.simplifiedcoding.data.AuthRepository
-import net.simplifiedcoding.data.Resource
 import javax.inject.Inject
 
 @HiltViewModel
@@ -37,6 +36,7 @@ class AuthViewModel @Inject constructor(
         _loginFlow.value = result
     }
 
+
     fun signup(name: String, email: String, password: String) = viewModelScope.launch {
         _signupFlow.value = Resource.Loading
         val result = repository.signup(name, email, password)
@@ -49,3 +49,5 @@ class AuthViewModel @Inject constructor(
         _signupFlow.value = null
     }
 }
+
+annotation class HiltViewModel

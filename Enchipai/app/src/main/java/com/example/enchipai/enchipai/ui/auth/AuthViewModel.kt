@@ -1,14 +1,14 @@
-package net.simplifiedcoding.ui.auth
+package com.example.enchipai.enchipai.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.enchipai.enchipai.data.AuthRepository
+import com.example.enchipai.enchipai.data.Resource
 import com.google.firebase.auth.FirebaseUser
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import net.simplifiedcoding.data.AuthRepository
-import net.simplifiedcoding.data.Resource
 import javax.inject.Inject
 
 @HiltViewModel

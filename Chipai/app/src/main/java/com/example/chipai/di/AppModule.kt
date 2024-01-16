@@ -1,12 +1,13 @@
-package net.simplifiedcoding.di
+package com.example.chipai.di
 
+import com.example.chipai.data.AuthRepository
+import com.example.chipai.data.AuthRepositoryImpl
 import com.google.firebase.auth.FirebaseAuth
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import net.simplifiedcoding.data.AuthRepository
-import net.simplifiedcoding.data.AuthRepositoryImpl
+
 
 @InstallIn(SingletonComponent::class)
 @Module

@@ -1,4 +1,4 @@
-package net.simplifiedcoding.ui.home
+package com.example.enchipai.enchipai.ui.home
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image

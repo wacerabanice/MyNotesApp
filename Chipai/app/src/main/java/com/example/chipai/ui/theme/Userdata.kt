@@ -1,10 +1,10 @@
 package com.example.chipai.ui.theme
 
-data class EmployeeObj(
+data class Userdata(
 
-    var employeeName: String,
-    var employeeContactNumber: String,
-    var employeeAddress: String,
+    var userName: String,
+    var userContactNumber: String,
+    var userAddress: String,
 
 
 ) {

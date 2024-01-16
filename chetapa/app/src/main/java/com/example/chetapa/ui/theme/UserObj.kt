@@ -1,12 +1,10 @@
 package com.example.chetapa.ui.theme
 
-class UserOdj {
-    var employeeName: String,
-    var employeeContactNumber: String,
-    var employeeAddress: String,
-
+class UserObj (
+    var UserName: String,
+    var UserContactNumber: String,
+    var UserAddress: String,
 
     ) {
 
     }
-}

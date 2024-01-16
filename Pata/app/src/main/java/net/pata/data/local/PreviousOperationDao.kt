@@ -5,6 +5,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
+import net.pata.ui.theme.auth.PreviousOperation
 
 @Dao
 interface PreviousOperationDao {

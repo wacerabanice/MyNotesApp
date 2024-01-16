@@ -1,12 +1,15 @@
-package net.simplifiedcoding.di
+package com.example.enchipai.enchipai.di
 
 import com.google.firebase.auth.FirebaseAuth
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import net.simplifiedcoding.data.AuthRepository
-import net.simplifiedcoding.data.AuthRepositoryImpl
+import com.example.enchipai.enchipai.data.AuthRepository
+import com.example.enchipai.enchipai.data.AuthRepositoryImpl
+import com.google.firebase.functions.dagger.Module
+import com.google.firebase.functions.dagger.Provides
+
 
 @InstallIn(SingletonComponent::class)
 @Module

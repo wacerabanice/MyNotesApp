@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">pata</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="already_have_account">already_have_account</string>
+    <string name="name">name</string>
+    <string name="welcome_back">welcome_back</string>
+    <string name="empty">empty</string>
+    <string name="logout">logout</string>
+    <string name="login">login</string>
+    <string name="cd_account">cd_account</string>
+    <string name="cd_search">cd_search</string>
+    <string name="create_account">create_account</string>
+    <string name="Register">Register</string>
+    <string name="WelcomeBack">Welcome Back</string>
+    <string name="GotoAccount">GoToAccount</string>
+    <string name="phoneNumber">phoneNumber</string>
+    <string name="Welcome">Welcome</string>
+    <string name="credit">credit</string>
+    <string name="shareEmiCalculation">shareEmiCalculation</string>
+</resources>

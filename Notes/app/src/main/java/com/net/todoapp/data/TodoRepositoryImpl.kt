@@ -7,7 +7,7 @@ class TodoRepositoryImpl(
 ): TodoRepository{
 
     override suspend fun insertTodo(todo: Todo) {
-        dao.insertTodo(todo)
+        dao.insertTodo(todo,)
     }
 
     override suspend fun deleteTodo(todo: Todo) {
@@ -20,10 +20,6 @@ class TodoRepositoryImpl(
    override fun getTodos(): Flow<List<Todo>>{
        return dao.getTodos()
    }
-
-
-
-
 
 
 }

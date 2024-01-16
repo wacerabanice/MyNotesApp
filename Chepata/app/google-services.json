@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910440050969",
+    "project_id": "chepata-ba060",
+    "storage_bucket": "chepata-ba060.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910440050969:android:92c7980fc874d4a1755588",
+        "android_client_info": {
+          "package_name": "com.example.chepata.chepata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1tUO9xZuNyAyjSNXrvESX1goTNTVvwhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

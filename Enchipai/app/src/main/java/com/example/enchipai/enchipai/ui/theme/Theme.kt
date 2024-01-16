@@ -1,4 +1,4 @@
-package net.simplifiedcoding.ui.theme
+package com.example.enchipai.enchipai.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -9,6 +9,63 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.font.FontFamily
+import net.simplifiedcoding.ui.theme.AppTypography
+import net.simplifiedcoding.ui.theme.LocalSpacing
+import net.simplifiedcoding.ui.theme.Spacing
+import net.simplifiedcoding.ui.theme.md_theme_dark_background
+import net.simplifiedcoding.ui.theme.md_theme_dark_error
+import net.simplifiedcoding.ui.theme.md_theme_dark_errorContainer
+import net.simplifiedcoding.ui.theme.md_theme_dark_inverseOnSurface
+import net.simplifiedcoding.ui.theme.md_theme_dark_inversePrimary
+import net.simplifiedcoding.ui.theme.md_theme_dark_inverseSurface
+import net.simplifiedcoding.ui.theme.md_theme_dark_onBackground
+import net.simplifiedcoding.ui.theme.md_theme_dark_onError
+import net.simplifiedcoding.ui.theme.md_theme_dark_onErrorContainer
+import net.simplifiedcoding.ui.theme.md_theme_dark_onPrimary
+import net.simplifiedcoding.ui.theme.md_theme_dark_onPrimaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_dark_onSecondary
+import net.simplifiedcoding.ui.theme.md_theme_dark_onSecondaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_dark_onSurface
+import net.simplifiedcoding.ui.theme.md_theme_dark_onSurfaceVariant
+import net.simplifiedcoding.ui.theme.md_theme_dark_onTertiary
+import net.simplifiedcoding.ui.theme.md_theme_dark_onTertiaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_dark_outline
+import net.simplifiedcoding.ui.theme.md_theme_dark_primary
+import net.simplifiedcoding.ui.theme.md_theme_dark_primaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_dark_secondary
+import net.simplifiedcoding.ui.theme.md_theme_dark_secondaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_dark_surface
+import net.simplifiedcoding.ui.theme.md_theme_dark_surfaceTint
+import net.simplifiedcoding.ui.theme.md_theme_dark_surfaceVariant
+import net.simplifiedcoding.ui.theme.md_theme_dark_tertiary
+import net.simplifiedcoding.ui.theme.md_theme_dark_tertiaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_light_background
+import net.simplifiedcoding.ui.theme.md_theme_light_error
+import net.simplifiedcoding.ui.theme.md_theme_light_errorContainer
+import net.simplifiedcoding.ui.theme.md_theme_light_inverseOnSurface
+import net.simplifiedcoding.ui.theme.md_theme_light_inversePrimary
+import net.simplifiedcoding.ui.theme.md_theme_light_inverseSurface
+import net.simplifiedcoding.ui.theme.md_theme_light_onBackground
+import net.simplifiedcoding.ui.theme.md_theme_light_onError
+import net.simplifiedcoding.ui.theme.md_theme_light_onErrorContainer
+import net.simplifiedcoding.ui.theme.md_theme_light_onPrimary
+import net.simplifiedcoding.ui.theme.md_theme_light_onPrimaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_light_onSecondary
+import net.simplifiedcoding.ui.theme.md_theme_light_onSecondaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_light_onSurface
+import net.simplifiedcoding.ui.theme.md_theme_light_onSurfaceVariant
+import net.simplifiedcoding.ui.theme.md_theme_light_onTertiary
+import net.simplifiedcoding.ui.theme.md_theme_light_onTertiaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_light_outline
+import net.simplifiedcoding.ui.theme.md_theme_light_primary
+import net.simplifiedcoding.ui.theme.md_theme_light_primaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_light_secondary
+import net.simplifiedcoding.ui.theme.md_theme_light_secondaryContainer
+import net.simplifiedcoding.ui.theme.md_theme_light_surface
+import net.simplifiedcoding.ui.theme.md_theme_light_surfaceTint
+import net.simplifiedcoding.ui.theme.md_theme_light_surfaceVariant
+import net.simplifiedcoding.ui.theme.md_theme_light_tertiary
+import net.simplifiedcoding.ui.theme.md_theme_light_tertiaryContainer
 
 
 private val LightColors = lightColorScheme(
@@ -74,7 +131,7 @@ private val DarkColors = darkColorScheme(
 
 
 @Composable
-fun AppTheme(
+fun EnchipaiTheme(
     useDarkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable() () -> Unit
 ) {

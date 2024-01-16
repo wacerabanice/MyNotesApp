@@ -1,46 +1,33 @@
 package com.example.enchepata
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.enchepata.ui.theme.EnchepataTheme
+import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
+import com.example.enchepata.navigation.AppNavHost
+import com.example.enchepata.ui.theme.auth.AuthViewModel
+import com.example.enchepata.ui.theme.theme.EnchepataTheme
 
-class MainActivity : ComponentActivity() {
+
+
+
+
+
+@AndroidEntryPoint
+class MainActivity : AppCompatActivity() {
+
+    private val viewModel by viewModels<AuthViewModel>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             EnchepataTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
+                AppNavHost(viewModel)
+
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+annotation class AndroidEntryPoint
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    EnchepataTheme {
-        Greeting("Android")
-    }
-}

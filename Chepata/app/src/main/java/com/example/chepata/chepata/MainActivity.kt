@@ -10,7 +10,7 @@ import com.example.chepata.chepata.ui.theme.auth.AuthViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : ComponentActivity() {
+class  MainActivity : ComponentActivity() {
 
     private val viewModel by viewModels<AuthViewModel>()
 

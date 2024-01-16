@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388295744573",
+    "project_id": "pata-54eb9",
+    "storage_bucket": "pata-54eb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388295744573:android:a5f470148c20d75b705e54",
+        "android_client_info": {
+          "package_name": "net.pata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwQQ2ymkypY8mxkP-CquaP1T30C78UfsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

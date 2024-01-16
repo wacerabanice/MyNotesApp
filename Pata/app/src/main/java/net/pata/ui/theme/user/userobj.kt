@@ -1,4 +1,8 @@
 package net.pata.ui.theme.user
 
-class userobj {
+class userobj (
+    var userName: String,
+    var userContactNumber: String,
+    var userAddress: String,
+){
 }

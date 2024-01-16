@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97d37eca-9723-4ff5-9e85-2d6eb1ed3d38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../KeepTrack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeepTrack/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeepTrack/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeepTrack/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeepTrack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeepTrack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/CategoryBadge.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/ExpenseRow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/ExpensesDayGroup.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/PickerTrigger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/ReportPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/TableRow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/UnstyledTextField.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/bar/BarChartDataModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/BarChart.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/BarChartData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/BarDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/LabelDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/MonthlyChart.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/SimpleBarDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/SimpleValueDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/SimpleXAxisDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/SimpleYAxisDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/WeeklyChart.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/XAxisDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/YAxisDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/charts/YearlyChart.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/components/expenseslist/ExpensesList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/db.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/mocks/MockExpenses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/models/Category.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/models/Expense.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/models/Recurrence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/pages/Add.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/pages/Categories.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/pages/Expenses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/pages/Reports.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/pages/Settings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/ui/theme/Shape.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/utils/BarChartUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/utils/ColorUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/utils/DateUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/utils/NumberUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/viewmodels/AddViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/viewmodels/CategoriesViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/viewmodels/ExpensesViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/viewmodels/Factory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/viewmodels/ReportPageViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/java/com/banice/powermoney/viewmodels/ReportsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/res/drawable/add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/res/drawable/bar_chart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/res/drawable/chevron_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/res/drawable/delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/res/drawable/ic_today.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/res/drawable/ic_unfold_more.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/res/drawable/settings_outlined.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../powermoney/app/src/main/res/drawable/upload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chepata/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chepata/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chepata/app/src/main/java/com/example/chepata/chepata/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chepata/app/src/main/java/com/example/chepata/chepata/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chepata/app/src/main/java/com/example/chepata/chepata/data/AuthRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chepata/app/src/main/java/com/example/chepata/chepata/data/AuthRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/data/AuthRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/data/AuthRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/data/AuthRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/data/AuthRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/data/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/data/Resource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/data/utils/FirebaseUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/data/utils/FirebaseUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/navigation/AppNavHost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/navigation/AppNavHost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/navigation/Routes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/navigation/Routes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/FirebaseAuthApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/FirebaseAuthApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/Userdata.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/Userdata.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/add/Add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/add/Add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/AuthHeader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/AuthHeader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/AuthViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/AuthViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/Login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/Signup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/Signup.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/about/About.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/auth/about/About.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/home/HomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/home/HomeScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/theme/Typography.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chipai/app/src/main/java/com/example/chipai/ui/theme/theme/Typography.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/classprogress/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/classprogress/Topbarstuff.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/classprogress/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/classprogress/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/classprogress/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/Data/AuthRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/Data/AuthRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/Data/AuthRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/Data/AuthRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/Data/utils/FirebaseUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/Data/utils/FirebaseUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/Data/utils/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/Data/utils/Resource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/navigation/AppNavHost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/navigation/AppNavHost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/navigation/Routes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/navigation/Routes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/UsersObj.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/UsersObj.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/about/About.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/about/About.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/add/add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/add/add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/auth/AuthHeader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/auth/AuthHeader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/auth/AuthViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/auth/AuthViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/auth/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/auth/Login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/auth/Register.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/auth/Register.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/home/Homescreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/app/src/main/java/com/example/enchepata/ui/theme/home/Homescreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchepata/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchepata/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/FirebaseAuthApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/FirebaseAuthApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/data/AuthRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/data/AuthRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/data/AuthRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/data/AuthRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/data/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/data/Resource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/navigation/AppNavHost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/navigation/AppNavHost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/navigation/Routes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/navigation/Routes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/ui/auth/AuthViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/ui/auth/AuthViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/ui/home/HomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/ui/home/HomeScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Enchipai/app/src/main/java/com/example/enchipai/enchipai/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/TodoApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/TodoApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/Todo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/Todo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/TodoDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/TodoDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/TodoDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/TodoDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/TodoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/TodoRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/TodoRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/data/TodoRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/add_edit_todo/AddEditTodoEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/add_edit_todo/AddEditTodoEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/add_edit_todo/AddEditTodoScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/add_edit_todo/AddEditTodoScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/add_edit_todo/AddEditTodoViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/add_edit_todo/AddEditTodoViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/todo_list/TodoListScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/todo_list/TodoListScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/todo_list/TodoListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/ui/theme/todo_list/TodoListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/util/Routes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/util/Routes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/util/UiEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/app/src/main/java/com/net/todoapp/util/UiEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/FirebaseAuthApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/FirebaseAuthApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/AuthRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/AuthRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/AuthRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/AuthRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/Resource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/local/PreviousOperation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/local/PreviousOperation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/local/PreviousOperationDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/local/PreviousOperationDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/utils/bindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/utils/bindings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/utils/emi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/utils/emi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/utils/firebaseutils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/data/utils/firebaseutils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/di/trial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/di/trial.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/loans/emi/calculateemi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/loans/emi/calculateemi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/loans/emi/emi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/loans/emi/emi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/loans/emi/emiCalculationFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/loans/emi/emiCalculationFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/navigation/AppNavHost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/navigation/AppNavHost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/navigation/Routes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/navigation/Routes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/Spacing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/Spacing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/Typography.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/Typography.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/about/about.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/about/about.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/add/add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/add/add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/auth/AuthHeader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/auth/AuthHeader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/auth/Authviewmodel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/auth/Authviewmodel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/auth/login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/auth/login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/auth/register.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/auth/register.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/home/homescreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/home/homescreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/user/userobj.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/java/net/pata/ui/theme/user/userobj.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/res/drawable-nokeys/ic_text_logo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/res/drawable-nokeys/ic_text_logo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/res/layout/fragment_emi_calculation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/res/layout/fragment_emi_calculation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pata/app/src/main/res/values/ids.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pata/app/src/main/res/values/ids.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/Cart.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/Cart.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/Homepage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/Homepage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/Loginscreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/Loginscreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/Products.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Progressive/app/src/main/java/com/example/progressive/Products.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestEverythinghere/app/src/main/java/com/net/testeverythinghere/calc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEverythinghere/app/src/main/java/com/net/testeverythinghere/calc.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestEverythinghere/app/src/main/java/com/net/testeverythinghere/simplecal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEverythinghere/app/src/main/java/com/net/testeverythinghere/simplecal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/FirebaseAuthApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/FirebaseAuthApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/data/AuthRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/data/AuthRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/data/AuthRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/data/AuthRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/data/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/data/Resource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/data/utils/FirebaseUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/data/utils/FirebaseUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/navigation/NavAppHost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/navigation/NavAppHost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/navigation/Routes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/navigation/Routes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/UserObj.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/UserObj.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/add/add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/add/add.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/AuthHeader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/AuthHeader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/AuthViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/AuthViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/Login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/Signup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/Signup.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/about/About.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/auth/about/About.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/home/HomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../chetapa/app/src/main/java/com/example/chetapa/ui/theme/home/HomeScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chetapa/app/src/main/res/drawable/chipailogo2.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Admin\.android\avd\Pixel_6_Pro_API_26_1.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UcWgVzXZem31U3KeXc3dh2Vh37" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/AndroidStudioProjects/Classprogress&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="android.template.1536131081">
+      <recent name="com.example.classprogress" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Classprogress.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97d37eca-9723-4ff5-9e85-2d6eb1ed3d38" name="Changes" comment="" />
+      <created>1693239460359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693239460359</updated>
+    </task>
+    <servers />
+  </component>
+</project>

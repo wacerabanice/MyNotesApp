@@ -1,13 +1,16 @@
-package net.simplifiedcoding
+package com.example.enchipai.enchipai
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.example.enchipai.enchipai.auth.AuthViewModel
+import com.example.enchipai.enchipai.navigation.AppNavHost
+import com.example.enchipai.enchipai.ui.theme.EnchipaiTheme
 import dagger.hilt.android.AndroidEntryPoint
-import net.simplifiedcoding.navigation.AppNavHost
-import net.simplifiedcoding.ui.auth.AuthViewModel
-import net.simplifiedcoding.ui.theme.AppTheme
+import navigation.AppNavHost
+import kotlin.text.Typography.dagger
+
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -17,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AppTheme {
+            EnchipaiTheme {
                 AppNavHost(viewModel)
             }
         }

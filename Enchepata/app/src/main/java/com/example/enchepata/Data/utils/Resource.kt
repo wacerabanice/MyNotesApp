@@ -1,6 +1,4 @@
-package net.simplifiedcoding.data
-
-import java.lang.Exception
+package com.example.enchepata.Data.utils
 
 sealed class Resource<out R> {
     data class Success<out R>(val result: R): Resource<R>()

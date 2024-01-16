@@ -1,9 +1,10 @@
-package net.simplifiedcoding.data
+package com.example.enchepata.data
 
+import com.example.enchepata.Data.utils.Resource
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.UserProfileChangeRequest
-import net.simplifiedcoding.data.utils.await
+import com.example.enchepata.Data.utils.await
 import javax.inject.Inject
 
 class AuthRepositoryImpl @Inject constructor(

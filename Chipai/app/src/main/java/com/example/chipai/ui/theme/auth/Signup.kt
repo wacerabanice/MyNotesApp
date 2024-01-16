@@ -1,4 +1,4 @@
-package net.simplifiedcoding.ui.auth
+package com.example.chipai.ui.theme.auth
 
 import android.content.res.Configuration.UI_MODE_NIGHT_NO
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
@@ -12,7 +12,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
@@ -23,13 +22,14 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import net.simplifiedcoding.R
-import net.simplifiedcoding.data.Resource
-import net.simplifiedcoding.navigation.ROUTE_HOME
-import net.simplifiedcoding.navigation.ROUTE_LOGIN
-import net.simplifiedcoding.navigation.ROUTE_SIGNUP
-import net.simplifiedcoding.ui.theme.AppTheme
-import net.simplifiedcoding.ui.theme.spacing
+import com.example.chipai.data.Resource
+import com.example.chipai.navigation.ROUTE_HOME
+import com.example.chipai.navigation.ROUTE_LOGIN
+import com.example.chipai.navigation.ROUTE_SIGNUP
+import com.example.chipai.ui.theme.ChipaiTheme
+import com.example.chipai.ui.theme.spacing
+
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -65,7 +65,7 @@ fun SignupScreen(viewModel: AuthViewModel?, navController: NavHostController) {
                 name = it
             },
             label = {
-                Text(text = stringResource(id = R.string.name))
+                Text(text = "name" )
             },
             modifier = Modifier.constrainAs(refName) {
                 top.linkTo(refHeader.bottom, spacing.extraLarge)
@@ -87,7 +87,7 @@ fun SignupScreen(viewModel: AuthViewModel?, navController: NavHostController) {
                 email = it
             },
             label = {
-                Text(text = stringResource(id = R.string.email))
+                Text(text = "email" )
             },
             modifier = Modifier.constrainAs(refEmail) {
                 top.linkTo(refName.bottom, spacing.medium)
@@ -109,7 +109,7 @@ fun SignupScreen(viewModel: AuthViewModel?, navController: NavHostController) {
                 password = it
             },
             label = {
-                Text(text = stringResource(id = R.string.password))
+                Text(text = "Password" )
             },
             modifier = Modifier.constrainAs(refPassword) {
                 top.linkTo(refEmail.bottom, spacing.medium)
@@ -137,7 +137,7 @@ fun SignupScreen(viewModel: AuthViewModel?, navController: NavHostController) {
                 width = Dimension.fillToConstraints
             }
         ) {
-            Text(text = stringResource(id = R.string.signup), style = MaterialTheme.typography.titleMedium)
+            Text(text = "Sign Up")
         }
 
 
@@ -153,7 +153,7 @@ fun SignupScreen(viewModel: AuthViewModel?, navController: NavHostController) {
                         popUpTo(ROUTE_SIGNUP) { inclusive = true }
                     }
                 },
-            text = stringResource(id = R.string.already_have_account),
+            text = "Already Have an Account",
             style = MaterialTheme.typography.bodyLarge,
             textAlign = TextAlign.Center,
             color = MaterialTheme.colorScheme.onSurface
@@ -189,7 +189,7 @@ fun SignupScreen(viewModel: AuthViewModel?, navController: NavHostController) {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_NO)
 @Composable
 fun SignupScreenPreviewLight() {
-    AppTheme {
+    ChipaiTheme {
         SignupScreen(null, rememberNavController())
     }
 }
@@ -197,7 +197,7 @@ fun SignupScreenPreviewLight() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 fun SignupScreenPreviewDark() {
-    AppTheme {
+    ChipaiTheme {
         SignupScreen(null, rememberNavController())
     }
 }

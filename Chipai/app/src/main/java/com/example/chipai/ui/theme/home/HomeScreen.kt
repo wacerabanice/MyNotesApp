@@ -1,124 +1,168 @@
-package net.simplifiedcoding.ui.home
+package com.example.chipai.ui.theme.home
 
 import android.content.res.Configuration
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
+import android.widget.Toast
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardCapitalization
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
+import androidx.constraintlayout.compose.ConstraintLayout
+import androidx.constraintlayout.compose.Dimension
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import net.simplifiedcoding.R
-import net.simplifiedcoding.navigation.ROUTE_HOME
-import net.simplifiedcoding.navigation.ROUTE_LOGIN
-import net.simplifiedcoding.ui.auth.AuthViewModel
-import net.simplifiedcoding.ui.theme.AppTheme
-import net.simplifiedcoding.ui.theme.spacing
+import com.example.chipai.data.Resource
+import com.example.chipai.navigation.ROUTE_HOME
+import com.example.chipai.navigation.ROUTE_LOGIN
+import com.example.chipai.navigation.ROUTE_SIGNUP
+import com.example.chipai.ui.theme.ChipaiTheme
+import com.example.chipai.ui.theme.auth.AuthHeader
+import com.example.chipai.ui.theme.auth.AuthViewModel
+import com.example.chipai.ui.theme.spacing
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(viewModel: AuthViewModel?, navController: NavHostController) {
-    val spacing = MaterialTheme.spacing
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .wrapContentHeight()
-            .padding(spacing.medium)
-            .padding(top = spacing.extraLarge),
-        horizontalAlignment = Alignment.CenterHorizontally
+    var name by remember { mutableStateOf("") }
+    var email by remember { mutableStateOf("") }
+
+
+    val signupFlow = viewModel?.signupFlow?.collectAsState()
+
+    ConstraintLayout(
+        modifier = Modifier.fillMaxSize()
     ) {
+        val (refHeader, refName, refEmail, refButtonLogout, refLoader) = createRefs()
+        val spacing = MaterialTheme.spacing
 
-        Text(
-            text = stringResource(id = R.string.welcome_back),
-            style = MaterialTheme.typography.headlineSmall,
-            color = MaterialTheme.colorScheme.onSurface
-        )
-
-        Text(
-            text = viewModel?.currentUser?.displayName ?: "",
-            style = MaterialTheme.typography.displaySmall,
-            color = MaterialTheme.colorScheme.onSurface
-        )
-
-        Image(
-            painter = painterResource(id = R.drawable.ic_person),
-            contentDescription = stringResource(id = R.string.empty),
-            modifier = Modifier.size(128.dp)
-        )
-
-        Column(
+        Box(
             modifier = Modifier
-                .fillMaxWidth()
-                .wrapContentHeight()
-                .padding(spacing.medium)
+                .constrainAs(refHeader) {
+                    top.linkTo(parent.top, spacing.extraLarge)
+                    start.linkTo(parent.start)
+                    end.linkTo(parent.end)
+                    width = Dimension.fillToConstraints
+                }
+                .wrapContentSize()
         ) {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .wrapContentHeight()
-            ) {
-                Text(
-                    text = stringResource(id = R.string.name),
-                    style = MaterialTheme.typography.bodyLarge,
-                    modifier = Modifier.weight(0.3f),
-                    color = MaterialTheme.colorScheme.onSurface
-                )
+            AuthHeader()
+        }
 
-                Text(
-                    text = viewModel?.currentUser?.displayName ?: "",
-                    style = MaterialTheme.typography.bodyLarge,
-                    modifier = Modifier.weight(0.7f),
-                    color = MaterialTheme.colorScheme.onSurface
-                )
+        TextField(
+            value = name,
+            onValueChange = {
+                name = it
+            },
+            label = {
+                Text(text = "name" )
+            },
+            modifier = Modifier.constrainAs(refName) {
+                top.linkTo(refHeader.bottom, spacing.extraLarge)
+                start.linkTo(parent.start, spacing.large)
+                end.linkTo(parent.end, spacing.large)
+                width = Dimension.fillToConstraints
+            },
+            keyboardOptions = KeyboardOptions(
+                capitalization = KeyboardCapitalization.None,
+                autoCorrect = false,
+                keyboardType = KeyboardType.Email,
+                imeAction = ImeAction.Next
+            )
+        )
+
+        TextField(
+            value = email,
+            onValueChange = {
+                email = it
+            },
+            label = {
+                Text(text = "email" )
+            },
+            modifier = Modifier.constrainAs(refEmail) {
+                top.linkTo(refName.bottom, spacing.medium)
+                start.linkTo(parent.start, spacing.large)
+                end.linkTo(parent.end, spacing.large)
+                width = Dimension.fillToConstraints
+            },
+            keyboardOptions = KeyboardOptions(
+                capitalization = KeyboardCapitalization.None,
+                autoCorrect = false,
+                keyboardType = KeyboardType.Email,
+                imeAction = ImeAction.Next
+            )
+        )
+
+
+
+        Button(
+            onClick = {
+                viewModel?.logout()
+                navController.navigate(ROUTE_LOGIN) {
+                    popUpTo(ROUTE_HOME) { inclusive = true }
+                }
+            },
+            modifier = Modifier.constrainAs(refButtonLogout) {
+                top.linkTo(refEmail.bottom, spacing.large)
+                start.linkTo(parent.start, spacing.extraLarge)
+                end.linkTo(parent.end, spacing.extraLarge)
+                width = Dimension.fillToConstraints
             }
+        ) {
+            Text(text = "Log Out")
+        }
 
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .wrapContentHeight()
-            ) {
-                Text(
-                    text = stringResource(id = R.string.email),
-                    style = MaterialTheme.typography.bodyLarge,
-                    modifier = Modifier.weight(0.3f),
-                    color = MaterialTheme.colorScheme.onSurface
-                )
 
-                Text(
-                    text = viewModel?.currentUser?.email ?: "",
-                    style = MaterialTheme.typography.bodyLarge,
-                    modifier = Modifier.weight(0.7f),
-                    color = MaterialTheme.colorScheme.onSurface
-                )
-            }
-
-            Button(
-                onClick = {
-                    viewModel?.logout()
-                    navController.navigate(ROUTE_LOGIN) {
-                        popUpTo(ROUTE_HOME) { inclusive = true }
+        signupFlow?.value?.let {
+            when (it) {
+                is Resource.Failure -> {
+                    val context = LocalContext.current
+                    Toast.makeText(context, it.exception.message, Toast.LENGTH_LONG).show()
+                }
+                Resource.Loading -> {
+                    CircularProgressIndicator(modifier = Modifier.constrainAs(refLoader) {
+                        top.linkTo(parent.top)
+                        bottom.linkTo(parent.bottom)
+                        start.linkTo(parent.start)
+                        end.linkTo(parent.end)
+                    })
+                }
+                is Resource.Success -> {
+                    LaunchedEffect(Unit) {
+                        navController.navigate(ROUTE_HOME) {
+                            popUpTo(ROUTE_SIGNUP) { inclusive = true }
+                        }
                     }
-                },
-                modifier = Modifier
-                    .align(Alignment.CenterHorizontally)
-                    .padding(top = spacing.extraLarge)
-            ) {
-                Text(text = stringResource(id = R.string.logout))
+                }
             }
         }
+
     }
 }
+
+
 
 @Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun HomeScreenPreviewLight() {
-    AppTheme {
+    ChipaiTheme {
         HomeScreen(null, rememberNavController())
     }
 }
@@ -126,7 +170,7 @@ fun HomeScreenPreviewLight() {
 @Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_YES)
 @Composable
 fun HomeScreenPreviewDark() {
-    AppTheme {
+    ChipaiTheme {
         HomeScreen(null, rememberNavController())
     }
 }

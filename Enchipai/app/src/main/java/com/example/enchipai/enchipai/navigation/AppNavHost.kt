@@ -1,4 +1,4 @@
-package net.simplifiedcoding.navigation
+package com.example.enchipai.enchipai.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -6,11 +6,14 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import net.simplifiedcoding.ui.auth.AuthViewModel
+import com.example.enchipai.enchipai.auth.AuthViewModel
 import net.simplifiedcoding.ui.auth.LoginScreen
 import net.simplifiedcoding.ui.auth.SignupScreen
 import net.simplifiedcoding.ui.auth.about.About
 import net.simplifiedcoding.ui.home.HomeScreen
+
+@Composable
+val navController = rememberNavController()
 
 @Composable
 fun AppNavHost(

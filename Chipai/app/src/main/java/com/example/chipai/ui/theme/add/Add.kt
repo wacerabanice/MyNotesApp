@@ -1,4 +1,4 @@
-package net.simplifiedcoding.ui.add
+package com.example.chipai.ui.theme.add
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -28,13 +28,14 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import com.example.chipai.ui.theme.Userdata
+import com.example.chipai.ui.theme.auth.AuthViewModel
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import net.simplifiedcoding.ui.EmployeeObj
-import net.simplifiedcoding.ui.auth.AuthViewModel
+
 
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
@@ -204,7 +205,7 @@ fun firebaseUI(context: Context, databaseReference: DatabaseReference) {
                 // on below line we are adding data.
 
                 val empObj =
-                    EmployeeObj(name.value.text, contactNumber.value.text, address.value.text);
+                    Userdata(name.value.text, contactNumber.value.text, address.value.text);
 
                 // we are using add value event listener method
                 // which is called with database reference.

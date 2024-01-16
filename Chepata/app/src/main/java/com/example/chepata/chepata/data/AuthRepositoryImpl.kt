@@ -1,7 +1,5 @@
 package com.example.chepata.chepata.data
 
-import com.example.chepata.chepata.data.AuthRepository
-import com.example.chepata.chepata.data.Resource
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.UserProfileChangeRequest

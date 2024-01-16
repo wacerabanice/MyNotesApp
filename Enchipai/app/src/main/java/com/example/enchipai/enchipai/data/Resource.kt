@@ -1,4 +1,4 @@
-package net.simplifiedcoding.data
+package com.example.enchipai.enchipai.data
 
 import java.lang.Exception
 

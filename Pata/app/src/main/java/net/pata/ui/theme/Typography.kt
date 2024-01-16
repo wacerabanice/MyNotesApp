@@ -1,4 +1,4 @@
-package net.simplifiedcoding.ui.theme
+package net.pata.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.PlatformTextStyle
@@ -8,7 +8,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.sp
-import net.simplifiedcoding.R
+import net.pata.R
+
 
 private val Poppins = FontFamily(
     Font(R.font.poppins_regular),

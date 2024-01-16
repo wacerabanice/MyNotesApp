@@ -1,7 +1,6 @@
-package net.simplifiedcoding.ui.auth
+package com.example.chipai.ui.theme.auth
 
 import android.content.res.Configuration.UI_MODE_NIGHT_NO
-import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import android.widget.Toast
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -12,7 +11,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
@@ -23,14 +21,13 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import net.simplifiedcoding.R.string
-import net.simplifiedcoding.data.Resource
-import net.simplifiedcoding.navigation.ROUTE_ABOUT
-import net.simplifiedcoding.navigation.ROUTE_ADDDATA
-import net.simplifiedcoding.navigation.ROUTE_HOME
-import net.simplifiedcoding.navigation.ROUTE_LOGIN
-import net.simplifiedcoding.ui.theme.AppTheme
-import net.simplifiedcoding.ui.theme.spacing
+import com.example.chipai.data.Resource
+import com.example.chipai.navigation.ROUTE_ABOUT
+import com.example.chipai.navigation.ROUTE_HOME
+import com.example.chipai.navigation.ROUTE_LOGIN
+import com.example.chipai.ui.theme.ChipaiTheme
+import com.example.chipai.ui.theme.spacing
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -39,7 +36,6 @@ fun LoginScreen(viewModel: AuthViewModel?, navController: NavController) {
     var password by remember { mutableStateOf("") }
 
     val loginFlow = viewModel?.loginFlow?.collectAsState()
-
 
 
     ConstraintLayout(
@@ -68,8 +64,9 @@ fun LoginScreen(viewModel: AuthViewModel?, navController: NavController) {
             onValueChange = {
                 email = it
             },
+
             label = {
-                Text(text = stringResource(id = string.email))
+                Text(text = "Enter Email")
             },
             modifier = Modifier.constrainAs(refEmail) {
                 top.linkTo(refHeader.bottom, spacing.extraLarge)
@@ -91,7 +88,7 @@ fun LoginScreen(viewModel: AuthViewModel?, navController: NavController) {
                 password = it
             },
             label = {
-                Text(text = stringResource(id = string.password))
+                Text(text = "Enter Password")
             },
             visualTransformation = PasswordVisualTransformation(),
             modifier = Modifier.constrainAs(refPassword) {
@@ -119,7 +116,7 @@ fun LoginScreen(viewModel: AuthViewModel?, navController: NavController) {
                 width = Dimension.fillToConstraints
             }
         ) {
-            Text(text =  "Add Employee Data", style = MaterialTheme.typography.titleMedium)
+            Text(text =  "Log In", style = MaterialTheme.typography.titleMedium)
         }
 
 
@@ -131,25 +128,17 @@ fun LoginScreen(viewModel: AuthViewModel?, navController: NavController) {
                     end.linkTo(parent.end, spacing.extraLarge)
                 }
                 .clickable {
-                    navController.navigate(ROUTE_ADDDATA) {
+                    navController.navigate(ROUTE_ABOUT) {
                         popUpTo(ROUTE_LOGIN) { inclusive = true }
                     }
                 },
-            text = "ADD DATA",
+            text = "About Chipai",
             style = MaterialTheme.typography.bodyLarge,
             textAlign = TextAlign.Center,
             color = MaterialTheme.colorScheme.onSurface
         )
 
-        Text(
-            modifier = Modifier
-                            .clickable {
-                    navController.navigate(ROUTE_ABOUT) {
-                        popUpTo(ROUTE_LOGIN) { inclusive = true }
-                    }
-                },
-            text = "About Screen",
-        )
+
 
 
         loginFlow?.value?.let {
@@ -178,18 +167,14 @@ fun LoginScreen(viewModel: AuthViewModel?, navController: NavController) {
     }
 }
 
+
+
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_NO)
 @Composable
 fun LoginScreenPreviewLight() {
-    AppTheme {
+    ChipaiTheme {
         LoginScreen(null, rememberNavController())
     }
 }
 
-@Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
-@Composable
-fun LoginScreenPreviewDark() {
-    AppTheme {
-        LoginScreen(null, rememberNavController())
-    }
-}
+

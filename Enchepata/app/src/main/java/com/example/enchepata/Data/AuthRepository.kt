@@ -1,5 +1,6 @@
-package net.simplifiedcoding.data
+package com.example.enchepata.data
 
+import com.example.enchepata.Data.utils.Resource
 import com.google.firebase.auth.FirebaseUser
 
 interface AuthRepository {
@@ -8,3 +9,5 @@ interface AuthRepository {
     suspend fun signup(name: String, email: String, password: String): Resource<FirebaseUser>
     fun logout()
 }
+
+

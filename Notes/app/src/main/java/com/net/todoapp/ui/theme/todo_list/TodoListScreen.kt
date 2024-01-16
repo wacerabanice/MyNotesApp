@@ -1,5 +1,6 @@
 package com.net.todoapp.ui.theme.todo_list
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -9,30 +10,41 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.SnackbarResult
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.net.todoapp.util.UiEvent
 import kotlinx.coroutines.flow.collect
 
+
+@OptIn(ExperimentalMaterial3Api::class)
+@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 fun TodoListScreen(
     onNavigate: (UiEvent.Navigate) -> Unit,
-    viewModel: TodoViewModel = hiltViewModel()
+    viewModel: TodoListViewModel = hiltViewModel()
 ) {
     val todos = viewModel.todos.collectAsState(initial = emptyList())
-    val scaffoldState = rememberScaffoldState()
+
+    val snackbarHostState = remember { SnackbarHostState() }
+
+
     LaunchedEffect(key1 = true) {
         viewModel.uiEvent.collect { event ->
             when(event) {
                 is UiEvent.ShowSnackbar -> {
-                    val result = scaffoldState.snackbarHostState.showSnackbar(
+                    val result = snackbarHostState.showSnackbar(
                         message = event.message,
                         actionLabel = event.action
                     )
@@ -46,8 +58,7 @@ fun TodoListScreen(
         }
     }
     Scaffold(
-        scaffoldState = scaffoldState,
-        floatingActionButton = {
+        snackbarHost = { SnackbarHost(snackbarHostState)
             FloatingActionButton(onClick = {
                 viewModel.onEvent(TodoListEvent.OnAddTodoClick)
             }) {

@@ -64,7 +64,6 @@ fun ChetapaTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
         content = content
     )
 }

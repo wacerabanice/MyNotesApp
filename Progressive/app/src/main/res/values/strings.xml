@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Progressive</string>
+    <string name="title_activity_loginscreen">Loginscreen</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_products">Products</string>
+    <string name="title_activity_cart">Cart</string>
+</resources>
